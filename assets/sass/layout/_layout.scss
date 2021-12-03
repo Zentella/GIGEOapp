@@ -5,8 +5,10 @@ hr {
 }
 
 /* videos */
-section {
+.videos{
 /* titulo-videos */
+width: 92%;
+margin-left: 4%;
   h2 {
     margin: 50px 60px;
     font-weight: $regular;
@@ -17,18 +19,19 @@ section {
   /* diapositivas */
 
   .flex-container {
-    margin-left: 8px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
     justify-content:center;
   }
   .flex-container .diapo {
-    width: 300px;           
+    width: 10%;           
   }
   .card {
-    margin-left: 8px;
-    margin-right: 8px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
     border: none;
     h5, p {
       margin-top: 8px;

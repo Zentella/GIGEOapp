@@ -11,10 +11,11 @@
 
   /* foto yuki */
 nav img {
-    margin: 20px 40px;
-    width: 20%;
+    margin: 20px 40px 20px 100px;
+    width: 4%;
     border-radius:50%;
-    flex-basis: 40%;
+    z-index: 1;
+    // flex-basis: 40%;
   }  
   .yuki {
     display: flex;

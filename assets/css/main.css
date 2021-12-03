@@ -9947,7 +9947,7 @@ button {
   border: none;
 }
 button.blue {
-  margin-left: 1000px;
+  margin-left: 600px;
   background: #8DEAED;
 }
 button.red {
@@ -9967,10 +9967,10 @@ nav a.logo h6 {
 
 /* foto yuki */
 nav img {
-  margin: 20px 40px;
-  width: 20%;
+  margin: 20px 40px 20px 100px;
+  width: 4%;
   border-radius: 50%;
-  flex-basis: 40%;
+  z-index: 1;
 }
 
 .yuki {
@@ -10008,6 +10008,28 @@ header {
     height: 15vh;
     max-height: 55vh;
   }
+
+  nav img {
+    margin: 20px 40px 20px 40px;
+    width: 80px;
+  }
+
+  .videos .row .card {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .videos .flex-container {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .videos .flex-container .diapo {
+    width: 10%;
+  }
 }
 /* barra-divisoria*/
 hr {
@@ -10016,44 +10038,47 @@ hr {
 }
 
 /* videos */
-section {
+.videos {
   /* titulo-videos */
+  width: 92%;
+  margin-left: 4%;
   /* diapositivas */
 }
-section h2 {
+.videos h2 {
   margin: 50px 60px;
   font-weight: 400;
   font-size: xx-large;
   color: #212F3D;
 }
-section .flex-container {
-  margin-left: 8px;
+.videos .flex-container {
+  margin-left: 0px;
   display: flex;
   flex-direction: column;
   flex-flow: row wrap;
   justify-content: center;
 }
-section .flex-container .diapo {
-  width: 300px;
+.videos .flex-container .diapo {
+  width: 10%;
 }
-section .card {
-  margin-left: 8px;
-  margin-right: 8px;
+.videos .card {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
   border: none;
 }
-section .card h5, section .card p {
+.videos .card h5, .videos .card p {
   margin-top: 8px;
   margin-left: -20px;
 }
-section .card h5 {
+.videos .card h5 {
   margin-top: 28px;
   font-weight: 700;
   font-size: x-large;
 }
-section .card p {
+.videos .card p {
   font-size: large;
 }
-section .card-body {
+.videos .card-body {
   margin-top: -40px;
   margin-bottom: 5px;
 }
